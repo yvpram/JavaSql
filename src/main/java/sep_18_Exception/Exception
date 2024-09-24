@@ -1,0 +1,27 @@
+Exception means excuse
+
+Definition : An exception is an unwanted or unexpected conditions which disturbing our normal flow of execution
+             on that time we handle by using try, catch, finally blocks and throw, throws.
+             
+Exception types:
+		1 checked exception(compilation time exception)  this exceptions are occured in the of compilation time
+		2 un-checked exception(run time exception); this exceptions are occured in the of run time
+                                    
+Exception handle:
+		We handle by using try,catch and finally blocks 
+    
+        try,catch     try,catch,catch     try,catch, finally      try, finally
+        
+     try {           | try{ 		  |    try{ 		    |    try{ 
+         try block   | 	try block     |     try block       |      try block 
+         }           |	 }            |      }              |	      }
+       catch{     	 |  catch{        |     catch{          |    finally{
+       catch block   |	catch block   |     catch block     |    finally block
+         }			 |	}             |     }               |	}
+         				catch{ 	  	  |	  finally{	        | 
+         				catch block   |		finally block   |
+         					}				}               |
+         									
+
+
+              
